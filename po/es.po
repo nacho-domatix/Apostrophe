@@ -1,17 +1,24 @@
+#
+# Nacho H. Mendoza <gnacho@gmail.com>, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: UberWriter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-17 19:08+0100\n"
-"Language: es\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Gtranslator 3.36.0\n"
+"Last-Translator: Nacho H. Mendoza <gnacho@gmail.com>\n"
+"Language-Team: Spanish - Spain <gnacho@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"PO-Revision-Date: 2020-04-11 09:57+0200\n"
 
 #: apostrophe/application.py:176
 msgid "Show debug messages (-vv debugs apostrophe also)"
-msgstr ""
+msgstr "Mostrar mensajes de depuración (-vv depuración de apostrophe también)"
 
 #: apostrophe/application.py:178
 msgid "Use experimental features"
@@ -28,14 +35,17 @@ msgid ""
 "\n"
 "{err_msg}"
 msgstr ""
+"A ocurrido un error intentando exportar:\n"
+"\n"
+"{err_msg}"
 
 #: apostrophe/export_dialog.py:216
 msgid "Oh, no!"
-msgstr ""
+msgstr "¡Oh, no!"
 
 #: apostrophe/export_dialog.py:219
 msgid "Seems that you don't have TexLive installed.\n"
-msgstr ""
+msgstr "Parece que TexLive no está instalado.\n"
 
 #: apostrophe/export_dialog.py:222 data/ui/Export.ui:616
 msgid "Export"
@@ -44,7 +54,7 @@ msgstr "Exportar"
 #: apostrophe/export_dialog.py:225
 #, python-format
 msgid "Export to %s"
-msgstr ""
+msgstr "Exportar a %s"
 
 #: apostrophe/export_dialog.py:227 apostrophe/main_window.py:429
 msgid "Cancel"
@@ -52,19 +62,19 @@ msgstr "Cancelar"
 
 #: apostrophe/export_dialog.py:285
 msgid "A folder must be selected before proceeding"
-msgstr ""
+msgstr "Se debe seleccionar una carpeta antes de proceder"
 
 #: apostrophe/export_dialog.py:428
 msgid "Please, install the TexLive extension from Gnome Software or running\n"
-msgstr "Instale la extensión de TexLive desde Software de GNOME o ejecutando\n"
+msgstr "Instala la extensión de TexLive desde Software de GNOME o ejecutando\n"
 
 #: apostrophe/export_dialog.py:431
 msgid "Please, install TexLive from your distribuiton repositories"
-msgstr "Instale TexLive desde los repositorios de la distribución"
+msgstr "Instala TexLive desde los repositorios de la distribución"
 
 #: apostrophe/headerbars.py:82
 msgid "Light mode isn't available while using a dark global theme"
-msgstr ""
+msgstr "Light mode isn't available while using a dark global theme"
 
 #: apostrophe/headerbars.py:124 apostrophe/preview_renderer.py:128
 #: data/ui/PreviewLayoutSwitcherItem.ui:36
@@ -85,7 +95,7 @@ msgstr "Ventana"
 
 #: apostrophe/inline_preview.py:191
 msgid "Formula looks incorrect:"
-msgstr ""
+msgstr "La fórmula parece incorrecta:"
 
 #: apostrophe/inline_preview.py:226
 msgid "No matching footnote found"
@@ -93,23 +103,23 @@ msgstr "No se encontró la nota al pie correspondiente"
 
 #: apostrophe/inline_preview.py:246
 msgid "noun"
-msgstr ""
+msgstr "nombre"
 
 #: apostrophe/inline_preview.py:248
 msgid "verb"
-msgstr ""
+msgstr "verbo"
 
 #: apostrophe/inline_preview.py:250
 msgid "adjective"
-msgstr ""
+msgstr "adjetivo"
 
 #: apostrophe/inline_preview.py:252
 msgid "adverb"
-msgstr ""
+msgstr "adverbio"
 
 #: apostrophe/main_window.py:284
 msgid "Save your File"
-msgstr "Guarde su archivo"
+msgstr "Guardar el archivo"
 
 #: apostrophe/main_window.py:384
 msgid "Markdown Files"
@@ -130,11 +140,11 @@ msgstr "Nuevo archivo"
 #: apostrophe/main_window.py:422
 #, python-format
 msgid "Save changes to document “%s” before closing?"
-msgstr ""
+msgstr "¿Guardar cambios al documento “%s” antes de cerrar?"
 
 #: apostrophe/main_window.py:426
 msgid "If you don’t save, all your changes will be permanently lost."
-msgstr ""
+msgstr "Si no se guarda todos los cambios se perderán permanentemente."
 
 #: apostrophe/main_window.py:428
 msgid "Close without saving"
@@ -150,11 +160,14 @@ msgid ""
 "exist.                                            \n"
 "A new file will be created in its place when you save the current one."
 msgstr ""
+"El archivo que se trata de abrir no "
+"existe.                                            \n"
+"Se creará un nuevo archivo en su lugar cuando se guarde el actual."
 
 #: apostrophe/main_window.py:520
 #, python-format
 msgid "Error Reading File: %r"
-msgstr ""
+msgstr "Error leyendo el archivo: %r"
 
 #: apostrophe/main_window.py:525
 #, python-format
@@ -162,6 +175,8 @@ msgid ""
 "Error reading file:                                         \n"
 "%r"
 msgstr ""
+"Error leyendo el archivo:                                         \n"
+"%r"
 
 #: apostrophe/plugins/bibtex/bibtex_item.glade:18
 #: apostrophe/plugins/bibtex/bibtex_item.glade:32
@@ -196,7 +211,7 @@ msgstr "{:d}:{:02d}:{:02d} Tiempo de lectura"
 #: apostrophe/text_view_drag_drop_handler.py:72
 #: apostrophe/text_view_drag_drop_handler.py:74
 msgid "web page"
-msgstr ""
+msgstr "sitio web"
 
 #: apostrophe/text_view_format_inserter.py:14
 msgid "italic text"
@@ -254,11 +269,11 @@ msgstr "Formato de entrada a usar para previsualizar y exportar usando Pandoc."
 
 #: data/de.wolfvollprecht.UberWriter.gschema.xml:51
 msgid "Autohide Headerbar"
-msgstr ""
+msgstr "Esconder automáticamente la barra de título"
 
 #: data/de.wolfvollprecht.UberWriter.gschema.xml:52
 msgid "Hide the header and status bars when typing."
-msgstr ""
+msgstr "Esconder las barras de título y estatus cuando se escribe."
 
 #: data/de.wolfvollprecht.UberWriter.gschema.xml:58
 msgid "Open file base path"
@@ -402,15 +417,15 @@ msgstr "<b>Opciones de HTML</b>"
 
 #: data/ui/Export.ui:484 data/ui/Export.ui:520
 msgid "Paper size"
-msgstr ""
+msgstr "Tamaño del papel"
 
 #: data/ui/Export.ui:501
 msgid "A4"
-msgstr ""
+msgstr "A4"
 
 #: data/ui/Export.ui:502
 msgid "US Letter"
-msgstr ""
+msgstr "Carta US"
 
 #: data/ui/Export.ui:546
 msgid "Commandline Reference"
@@ -418,15 +433,15 @@ msgstr "Referencia de consola"
 
 #: data/ui/ExportPopover.ui:19 data/ui/Headerbar.ui:242
 msgid "Save as..."
-msgstr ""
+msgstr "Guardar como..."
 
 #: data/ui/ExportPopover.ui:90
 msgid "Advanced..."
-msgstr ""
+msgstr "Avanzado..."
 
 #: data/ui/Headerbar.ui:130
 msgid "Sync views"
-msgstr ""
+msgstr "Sincronizar vistas"
 
 #: data/ui/Headerbar.ui:171
 msgid "New"
@@ -450,11 +465,11 @@ msgstr "Menú"
 
 #: data/ui/Headerbar.ui:375
 msgid "Find"
-msgstr ""
+msgstr "Buscar"
 
 #: data/ui/Menu.ui:100
 msgid "Hemingway mode"
-msgstr ""
+msgstr "Modo Hemingway"
 
 #: data/ui/Menu.ui:114
 msgid "Focus Mode"
@@ -462,7 +477,7 @@ msgstr "Modo de concentración"
 
 #: data/ui/Menu.ui:139
 msgid "Find and Replace"
-msgstr ""
+msgstr "Buscar y reemplazar"
 
 #: data/ui/Menu.ui:164 data/ui/Preferences.ui:19
 msgid "Preferences"
@@ -474,19 +489,19 @@ msgstr "Abrir tutorial"
 
 #: data/ui/Menu.ui:203
 msgid "Keyboard Shortcuts"
-msgstr ""
+msgstr "Atajos de teclado"
 
 #: data/ui/Menu.ui:217
 msgid "About Apostrophe"
-msgstr ""
+msgstr "Acerca de Apostrophe"
 
 #: data/ui/Preferences.ui:110
 msgid "Autohide header and statusbars while typing"
-msgstr ""
+msgstr "Esconder las barras de título y estatus cuando se escribe."
 
 #: data/ui/Preferences.ui:112
 msgid "Autohide headerbar"
-msgstr ""
+msgstr "Esconder automáticamente la barra de título"
 
 #: data/ui/Shortcuts.ui:13
 msgctxt "shortcut window"
@@ -551,12 +566,12 @@ msgstr "Pantalla completa"
 #: data/ui/Shortcuts.ui:95 data/ui/Shortcuts.ui:99
 msgctxt "shortcut window"
 msgid "Find"
-msgstr ""
+msgstr "Buscar"
 
 #: data/ui/Shortcuts.ui:106
 msgctxt "shortcut window"
 msgid "Find and replace"
-msgstr ""
+msgstr "Buscar y reemplazar"
 
 #: data/ui/Shortcuts.ui:115
 msgctxt "shortcut window"
@@ -681,7 +696,7 @@ msgstr "Reemplazar"
 
 #: data/ui/Window.ui:358
 msgid "Replace All"
-msgstr ""
+msgstr "Reemplazar todo"
 
 #~ msgid "(no suggestions)"
 #~ msgstr "(no hay sugerencias)"
